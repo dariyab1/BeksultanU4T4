@@ -3,16 +3,21 @@ public class Main {
     {
 
 
-        for (int j=4; j>0;j--)
-        {
-            for (int i = j; i > 0; i--)
-            {
-                System.out.print("*");
+        int result = 0;
+        int m = 0;
+        while (m < 3) {
+            int k = 0;
+            while (k < 4) {
+                result++;
+                k++;
+                System.out.print("k: " + k);
+                System.out.println(", m: " + m);
             }
-            System.out.println();
+            m++;
         }
+        System.out.println("result: " + result);
 
-        for (int i=0;i<6;i++)
+
 
 
 
